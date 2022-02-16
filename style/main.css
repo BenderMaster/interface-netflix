@@ -9,9 +9,12 @@
     box-sizing: border-box;
 }
 
+/*elementos base*/
+
 body{
     background: var(--preto);
     font-family: 'Times New Roman', Times, serif;
+    color: white;
 }
 
 header .container{
@@ -36,4 +39,26 @@ header nav a{
 
 header nav a:hover{
     color: #FFF;
+}
+
+/*filme em destaque*/
+
+main .filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0.50)100%), url('/img/capa.jpg');
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+main .filme-principal .descricao{
+    margin-bottom: 90px;
+}
+
+.titulo{
+    font-size: 40px;
 }
