@@ -4,39 +4,101 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Netflix Clone</title>
+    <title>Gameflix Database</title>
     <link rel="stylesheet" href="style/main.css">
+
+    <!--Responsividade-->
+
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
 </head>
 <body>
+
+    <!--Menu do Cabeçalho-->
+
     <header>
         <div class="container">
-            <h2 class="logo">NETFLIX</h2>
+            <h2 class="logo">GAMEFLIX</h2>
             <nav>
                 <a href="#">Início</a>
-                <a href="#">Séries</a>
-                <a href="#">Filmes</a>
-                <a href="#">Documentários</a>
+                <a href="#">Jogos</a>
+                <a href="#">Lançamentos</a>
+                <a href="#">Reviews</a>
             </nav>
         </div>
     </header>
 
+    <!--Jogo em destaque-->
+
     <main>
-        <div class="filme-principal">
+        <div class="jogo-principal">
             <div class="container">
-                <h3 class="titulo">STRANGER THINGS</h3>
-                <p class="descricao">Quando um garoto desaparece, a cidade toda participa nas buscas. 
-                    Mas o que encontram são segredos, forças sobrenaturais e uma menina.
-                    Assista agora a nova temporada de Stranger Things!</p>
-            </div>
-            <div class="botoes">
-            <button role="button" class="botao">
-                ASSISTIR AGORA
-            </button>
-            <button role="button" class="botao">
+                <h3 class="titulo">GOD OF WAR 4</h3>
+                <p class="descricao">Após a morte da segunda esposa de Kratos e mãe de Atreus, 
+                    eles viajam para cumprir sua promessa de espalhar suas cinzas no pico mais 
+                    alto dos nove reinos. Kratos mantém seu passado conturbado em segredo de Atreus, 
+                    que não tem consciência de sua natureza divina.</p>
+            
+                <div class="botoes">
+                <button role="button" class="botao">
+                    <i class="fa-solid fa-play"></i>
+                 VER TRAILER
+                </button>
+                <button role="button" class="botao">
+                <i class="fa-solid fa-circle-info"></i>
                 MAIS INFORMAÇÕES
             </button>
             </div>
+            </div>
         </div>
     </main>
+
+    <!--carrossel jogos lançamento-->
+
+    <div class="owl-carousel owl-theme">
+        <div class="item">
+            <img class="box-lancamentos" src="img/mini1.png" alt="" srcset="">
+        </div>
+        <div class="item">
+            <img class="box-lancamentos" src="img/mini2.png" alt="" srcset="">
+        </div>
+        <div class="item">
+            <img class="box-lancamentos" src="img/mini3.png" alt="" srcset="">
+        </div>
+        <div class="item">
+            <img class="box-lancamentos" src="img/mini4.png" alt="" srcset="">
+        </div>
+        <div class="item">
+            <img class="box-lancamentos" src="img/mini5.png" alt="" srcset="">
+        </div>
+        <div class="item">
+            <img class="box-lancamentos" src="img/mini6.png" alt="" srcset="">
+        </div>
+        <div class="item">
+            <img class="box-lancamentos" src="img/mini7.png" alt="" srcset="">
+        </div>
+        <div class="item">
+            <img class="box-lancamentos" src="img/mini8.png" alt="" srcset="">
+        </div>
+        <div class="item">
+            <img class="box-lancamentos" src="img/mini9.png" alt="" srcset="">
+        </div>
+        <div class="item">
+            <img class="box-lancamentos" src="img/mini10.png" alt="" srcset="">
+        </div>
+
+    </div>
+
+    <!--Chamada de JavaScript-->
+
+    <script src="https://kit.fontawesome.com/4f58d18477.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+
 </body>
 </html>
