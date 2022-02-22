@@ -10,6 +10,6 @@ Recriando a pagina inicial do serviço de Streaming Netflix, com tema de jogos.
 2- Eu estava em busca de um plugin para trazer o trailer do jogo de capa (que está no topo da pagina), diretamente no site, com um embed do youtube. Foi dificil, mas consegui. O plugin
 que utilizei foi o <b>MagnificPopup<b>.
 
-
+3- O titulo no cabeçalho da pagina (GAMEFLIX) não estava ficando centralizado na versão mobile. Alterar a margem do <b>header .container<b> para <b>0<b> solucionou o problema.
 
 Em andamento! WiP

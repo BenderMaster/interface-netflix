@@ -105,6 +105,16 @@ main .jogo-principal .descricao{
     width: 70%;
 }
 
+
+.categoria{
+    font-size: 22px;
+    margin: 15px;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
 /*carrossel de jogos lançamento*/
 
 .box-lancamentos{

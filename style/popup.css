@@ -1,0 +1,22 @@
+.white-popup {
+	position: relative;
+	background: var(--preto);
+	padding: 20px;
+	width: auto;
+	max-width: 500px;
+	margin: 20px auto;
+  }
+
+  .popup-container{
+	  display: flex;
+	  font-size: 12px;
+	  margin: 8px;
+	  align-items: flex-end;
+	  justify-content: flex-end;
+	  background-color: rgba(15, 15, 15, 0.2);
+  }
+
+  .popup-container .minimo{
+	  border-right: 1px solid;
+	  margin-right: 25px;
+  }

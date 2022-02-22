@@ -7,6 +7,7 @@
     <title>Gameflix Database</title>
     <link rel="stylesheet" href="style/main.css">
     <link rel="stylesheet" href="mp/magnific-popup.css">
+    <link rel="stylesheet" href="style/popup.css">
 
     <!--Responsividade-->
 
@@ -25,7 +26,7 @@
         <div class="container">
             <h2 class="logo">GAMEFLIX</h2>
             <nav>
-                <a href="#">Início</a>
+                <a href="https://gameflix-database.vercel.app">Início</a>
                 <a href="#">Jogos</a>
                 <a href="#">Lançamentos</a>
                 <a href="#">Reviews</a>
@@ -45,20 +46,65 @@
                     que não tem consciência de sua natureza divina.</p>
             
                 <div class="botoes">
+                    <a href ="https://www.youtube.com/watch?v=FyIwEFXOcaE" class="vidplay">
                 <button role="button" class="botao">
                     <i class="fa-solid fa-play"></i>
-                    <a href ="https://www.youtube.com/watch?v=FyIwEFXOcaE" class="vidplay">VER TRAILER</a>
-                </button>
+                    VER TRAILER
+                </button></a>
+                <a href="#more-info" class="open-popup-link">
                 <button role="button" class="botao">
                 <i class="fa-solid fa-circle-info"></i>
-                MAIS INFORMAÇÕES
-            </button>
-            </div>
+                REQUISITOS DO SISTEMA
+                </button></a>
+ 
+                </div>
             </div>
         </div>
     </main>
 
+    <!-- Popup sobre informações de requisitos para conseguir rodar o jogo -->
+
+    <div id="more-info" class="white-popup mfp-hide">
+
+        <div class="requisitos">
+            Seu PC roda este jogo?
+        </div>
+        <div class="popup-container"><div class="minimo">
+            <ul>
+                <strong>Mínimos:</strong><br>
+                    <ul class="bb_ul"><li>Requer um processador e sistema operacional de 64 bits<br></li>    
+                    <li><strong>SO:</strong> Windows 10 64-bit<br></li>
+                    <li><strong>Processador:</strong> Intel i5-2500k (4 core 3.3 GHz) or AMD Ryzen 3 1200 (4 core 3.1 GHz)<br></li>
+                    <li><strong>Memória:</strong> 8 GB de RAM<br></li>
+                    <li><strong>Placa de vídeo:</strong> NVIDIA GTX 960 (4 GB) or AMD R9 290X (4 GB)<br></li>
+                    <li><strong>DirectX:</strong> Versão 11<br></li>
+                    <li><strong>Armazenamento:</strong> 70 GB de espaço disponível<br></li>
+                    <li><strong>Outras observações:</strong> DirectX feature level 11_1 required</li>
+                </ul>
+            </ul>
+        </div>
+            <div class="recomendado">
+                <ul>
+                    <strong>Recomendados:</strong><br>
+                    <ul class="bb_ul"><li>Requer um processador e sistema operacional de 64 bits<br>
+                    </li><li><strong>SO:</strong> Windows 10 64-bit<br>
+                    </li><li><strong>Processador:</strong> Intel i5-6600k (4 core 3.5 GHz) or AMD Ryzen 5 2400 G (4 core 3.6 GHz)<br>
+                    </li><li><strong>Memória:</strong> 8 GB de RAM<br>
+                    </li><li><strong>Placa de vídeo:</strong> NVIDIA GTX 1060 (6 GB) or AMD RX 570 (4 GB)<br>
+                    </li><li><strong>DirectX:</strong> Versão 11<br>
+                    </li><li><strong>Armazenamento:</strong> 70 GB de espaço disponível<br>
+                    </li><li><strong>Outras observações:</strong> DirectX feature level 11_1 required</li>
+                </ul>	
+            </ul>
+            </div>
+        </div>
+    </div>
+
     <!--carrossel jogos lançamento-->
+
+    <div class="categoria">
+        Lançamentos:
+    </div>
 
     <div class="owl-carousel owl-theme">
         <div class="item">
@@ -93,6 +139,10 @@
         </div>
 
     </div>
+
+
+
+
 
 
     <!--Chamada de JavaScript-->
@@ -141,5 +191,15 @@
             });
         });
     </script>
+    <script>
+
+    $('.open-popup-link').magnificPopup({
+    type:'inline',
+    midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
+    });
+
+    </script>
+
+
 </body>
 </html>
