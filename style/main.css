@@ -122,3 +122,29 @@ main .jogo-principal .descricao{
     width: 100%;
     display: block;
 }
+
+/*configurações especificas Pag.Jogos*/
+
+.gamecontainer{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0.50)100%), url('/img/iggbackground.jpg');
+    height: 800px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+body .gamesm{ background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0.50)100%), url('/img/iggbackground.jpg');
+    height: 800px;
+    background-size: cover;
+
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
