@@ -12,4 +12,15 @@ que utilizei foi o <b>MagnificPopup</b>.
 
 3- O titulo no cabeçalho da pagina (GAMEFLIX) não estava ficando centralizado na versão mobile. Alterar a margem do <b>header .container</b> para <b>0</b> solucionou o problema.
 
+## Implementado
+
+1- Botóes do destaque do site (jogo do banner) funcionam, e trazem o video trailer e os requisitos necessários do jogo, em um popup dentro do site, sem a necessidade de direcionar o usuário para outra página.
+
+2- A pagina de <b>Destaque</b> está vazia, mas é um modelo de como será a pagina de cada jogo do site, com musica de fundo, walktrough, reviews, etc.
+
+
+## Teste o projeto agora! Entre aqui:
+
+<a href="https://gameflix-database.vercel.app"> Testar o site em desenvolvimento </a>
+
 Em andamento! WiP

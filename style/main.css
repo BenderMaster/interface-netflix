@@ -139,8 +139,11 @@ main .jogo-principal .descricao{
 }
 
 body .gamesm{ background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0.50)100%), url('/img/iggbackground.jpg');
-    height: 800px;
+    height: 1100px;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 
 
     flex-direction: column;

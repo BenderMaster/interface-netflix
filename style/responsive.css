@@ -15,4 +15,13 @@
         width: 190px;
 
     }
+
+    .popup-container{
+        display: flex;
+        font-size: 12px;
+        margin: 8px;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+
 }

@@ -3,13 +3,13 @@
 	background: var(--preto);
 	padding: 20px;
 	width: auto;
-	max-width: 500px;
+	max-width: 700px;
 	margin: 20px auto;
   }
 
   .popup-container{
 	  display: flex;
-	  font-size: 12px;
+	  font-size: 16px;
 	  margin: 8px;
 	  align-items: flex-end;
 	  justify-content: flex-end;
